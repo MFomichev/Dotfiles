@@ -3,7 +3,7 @@ Dotfiles for my different machine setup.
 The repo structure is awful (as well as amount of repetability and platform dependency). However, oneday it will be better than now (at least I hope).
 
 == Arch
-===Dependencies
+=== Dependencies
 
 - User name must be ``mfomichev``.
 - https://sdkman.io[SdkMan] must be installed
