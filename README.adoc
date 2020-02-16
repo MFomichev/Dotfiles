@@ -5,6 +5,12 @@ The repo structure is awful (as well as amount of repetability and platform depe
 == Arch
 === Dependencies
 
-- User name must be ``mfomichev``.
-- https://sdkman.io[SdkMan] must be installed
+- user name must be ``mfomichev``.
+- https://sdkman.io[sdkman] must be installed
+
+== Macos
+=== Dependencies
+
+- user name must be ``mfomichev``.
+- https://sdkman.io[sdkman] must be installed
 
