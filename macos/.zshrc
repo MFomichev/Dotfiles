@@ -13,7 +13,7 @@ plugins=(
          tmux
          docker
          mvn
-	 gradle
+         gradle
 )
 
 source $ZSH/oh-my-zsh.sh
