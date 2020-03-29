@@ -14,3 +14,10 @@ The repo structure is awful (as well as amount of repetability and platform depe
 - user name must be ``mfomichev``.
 - https://sdkman.io[sdkman] must be installed
 
+==  Custom functions
+
+|===
+|Function |Short description
+|``mbutd`` |Update brew, formulae and packages
+|===
+

@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# acronym for 'make brew up to date'
+mbutd() {
+  echo '[START] update the formulae and Homebrew itself'
+  brew update
+  echo '[FINISH] formulae and Homebrew are updated'
+  echo '[INFO] outdated packages:'
+  brew outdated
+  echo '[START] update packages'
+  brew upgrade
+  echo '[FINISH] all packages are updated'
+}
+

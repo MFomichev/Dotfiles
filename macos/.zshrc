@@ -31,6 +31,8 @@ prompt_context() {
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
+for function in ~/.functions/*; do source $function; done
+
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/Users/mfomichev/.sdkman"
 [[ -s "/Users/mfomichev/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/mfomichev/.sdkman/bin/sdkman-init.sh"
