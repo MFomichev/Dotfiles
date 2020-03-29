@@ -2,4 +2,5 @@
 
 brew install \
  node \
+ yarn \
 
