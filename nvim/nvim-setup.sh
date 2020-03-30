@@ -8,5 +8,8 @@ curl --insecure -fLo ~/.config/nvim/autoload/plug.vim https://raw.github.com/jun
 
 ln -sfv $BASE/nvim/init.vim  $HOME/.config/nvim/init.vim
 
-#nvim +PlugInstall! +qall
+ln -sfv $BASE/nvim/coc-settings.json  $HOME/.config/nvim/coc-settings.json
+
+nvim +PlugInstall +qall
+nvim "+CocInstall -sync coc-json coc-html" +qall
 
