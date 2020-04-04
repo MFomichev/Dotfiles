@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# mkdir and cd a directory
+# source https://unix.stackexchange.com/a/125386
+mkcdir ()
+{
+    mkdir -p -- "$1" &&
+      cd -P -- "$1"
+}
+

@@ -19,5 +19,6 @@ The repo structure is awful (as well as amount of repetability and platform depe
 |===
 |Function |Short description
 |``mbutd`` |Update brew, formulae and packages
+|``mkcdir`` |Create dir and go to it
 |===
 
