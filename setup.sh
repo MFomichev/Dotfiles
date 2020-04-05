@@ -6,3 +6,5 @@ source ./brew-packages-setup.sh
 
 source ./nvim/nvim-setup.sh
 
+ln -sfv $PWD/tmux/tmux.conf $HOME/.tmux.conf
+
