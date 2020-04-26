@@ -3,4 +3,5 @@
 brew install \
  node \
  yarn \
+ p7zip \
 
