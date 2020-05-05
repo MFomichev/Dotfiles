@@ -12,3 +12,5 @@ Plug 'chrisbra/csv.vim'
 
 call plug#end()
 
+set number
+
