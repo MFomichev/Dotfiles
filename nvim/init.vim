@@ -8,5 +8,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
 let g:coc_global_extensions = ['coc-json', 'coc-html']
 
+Plug 'chrisbra/csv.vim'
+
 call plug#end()
 
