@@ -18,8 +18,19 @@ highlight GitGutterChange guifg=#bbbb00 ctermfg=3
 highlight GitGutterDelete guifg=#ff2222 ctermfg=1
 
 
+Plug 'scrooloose/nerdtree'
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+
 call plug#end()
 
 set number
 set updatetime=100
+
+"NERDTree
+nnoremap <F10> :NERDTreeToggle<cr>
+nnoremap <F12> :NERDTreeFind<cr>
+nnoremap <Leader>n :NERDTreeToggle<cr>
+nnoremap <Leader>N :NERDTreeFind<cr>
 
