@@ -5,4 +5,5 @@ brew install \
  yarn \
  p7zip \
  jq \
+ djview4 \
 
