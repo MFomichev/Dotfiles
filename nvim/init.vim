@@ -31,6 +31,8 @@ call plug#end()
 
 set number
 set updatetime=100
+set clipboard=unnamed
+
 
 "NERDTree
 nnoremap <F10> :NERDTreeToggle<cr>
