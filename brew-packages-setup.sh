@@ -7,3 +7,6 @@ brew install \
  jq \
  djview4 \
 
+brew tap homebrew/cask-fonts
+brew cask install font-jetbrainsmono-nerd-font
+
