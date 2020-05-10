@@ -33,6 +33,7 @@ call plug#end()
 set number
 set updatetime=100
 set clipboard=unnamed
+set encoding=UTF-8
 
 
 "NERDTree
