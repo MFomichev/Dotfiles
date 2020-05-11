@@ -23,6 +23,7 @@ autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 Plug 'ryanoasis/vim-devicons'
+Plug 'Yggdroot/indentLine'
 
 " Editing
 Plug 'jiangmiao/auto-pairs'
@@ -42,4 +43,17 @@ nnoremap <F10> :NERDTreeToggle<cr>
 nnoremap <F12> :NERDTreeFind<cr>
 nnoremap <Leader>n :NERDTreeToggle<cr>
 nnoremap <Leader>N :NERDTreeFind<cr>
+
+" let g:indentLine_setColors = 0
+let g:indentLine_color_term = 239
+let g:indentLine_color_gui = '#A4E57E'
+let g:indentLine_char = '¦' 
+" let g:indentLine_conceallevel = 1 
+
+set tabstop=2
+set shiftwidth=2
+set expandtab 
+set smarttab
+set autoindent
+set smartindent
 
