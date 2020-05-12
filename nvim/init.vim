@@ -43,11 +43,9 @@ nnoremap <Leader>N :NERDTreeFind<cr>
 xmap ga <Plug>(EasyAlign)
 nmap ga <Plug>(EasyAlign)
 
-" let g:indentLine_setColors = 0
 let g:indentLine_color_term = 239
 let g:indentLine_color_gui = '#A4E57E'
 let g:indentLine_char = '¦' 
-" let g:indentLine_conceallevel = 1 
 
 set number
 set updatetime =100
