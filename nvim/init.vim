@@ -2,6 +2,8 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'preservim/nerdcommenter'
 let g:NERDDefaultAlign = 'start'
+Plug 'junegunn/vim-easy-align'
+
 
 Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
 let g:coc_global_extensions = ['coc-json', 'coc-html']
@@ -42,6 +44,10 @@ nnoremap <F10> :NERDTreeToggle<cr>
 nnoremap <F12> :NERDTreeFind<cr>
 nnoremap <Leader>n :NERDTreeToggle<cr>
 nnoremap <Leader>N :NERDTreeFind<cr>
+
+" EasyAlign
+xmap ga <Plug>(EasyAlign)
+nmap ga <Plug>(EasyAlign)
 
 " let g:indentLine_setColors = 0
 let g:indentLine_color_term = 239
