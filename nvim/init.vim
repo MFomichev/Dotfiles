@@ -3,8 +3,6 @@ call plug#begin('~/.vim/plugged')
 Plug 'preservim/nerdcommenter'
 let g:NERDDefaultAlign = 'start'
 
-Plug 'jiangmiao/auto-pairs'
-
 Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
 let g:coc_global_extensions = ['coc-json', 'coc-html']
 
@@ -29,6 +27,7 @@ Plug 'Yggdroot/indentLine'
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-endwise'
+Plug 'junegunn/vim-easy-align'
 
 call plug#end()
 
