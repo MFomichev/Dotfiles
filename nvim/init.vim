@@ -33,12 +33,6 @@ Plug 'junegunn/vim-easy-align'
 
 call plug#end()
 
-set number
-set updatetime=100
-set clipboard=unnamed
-set encoding=UTF-8
-
-
 "NERDTree
 nnoremap <F10> :NERDTreeToggle<cr>
 nnoremap <F12> :NERDTreeFind<cr>
@@ -55,8 +49,12 @@ let g:indentLine_color_gui = '#A4E57E'
 let g:indentLine_char = '¦' 
 " let g:indentLine_conceallevel = 1 
 
-set tabstop=2
-set shiftwidth=2
+set number
+set updatetime =100
+set clipboard  =unnamed
+set encoding   =UTF-8
+set tabstop    =2
+set shiftwidth =2
 set expandtab 
 set smarttab
 set autoindent
