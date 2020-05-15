@@ -1,5 +1,0 @@
-= Midnight Commander
-
-Dotfiles for configure mc.
-The content of directory should be put into ``~``.
-
