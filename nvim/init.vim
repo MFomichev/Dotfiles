@@ -38,6 +38,7 @@ nnoremap <F10> :NERDTreeToggle<cr>
 nnoremap <F12> :NERDTreeFind<cr>
 nnoremap <Leader>n :NERDTreeToggle<cr>
 nnoremap <Leader>N :NERDTreeFind<cr>
+let NERDTreeShowHidden=1
 
 " EasyAlign
 xmap ga <Plug>(EasyAlign)
