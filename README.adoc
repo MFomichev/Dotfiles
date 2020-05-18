@@ -1,18 +1,13 @@
 = Dotfiles
-Dotfiles for my different machine setup.
+Dotfiles for my different machine setup (at the moment macos only).
 The repo structure is awful (as well as amount of repetability and platform dependency). However, oneday it will be better than now (at least I hope).
-
-== Arch
-=== Dependencies
-
-- user name must be ``mfomichev``.
-- https://sdkman.io[sdkman] must be installed
 
 == Macos
 === Dependencies
 
 - user name must be ``mfomichev``.
 - https://sdkman.io[sdkman] must be installed
+- ...
 
 ==  Custom functions
 
