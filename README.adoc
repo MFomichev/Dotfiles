@@ -6,7 +6,6 @@ The repo structure is awful (as well as amount of repetability and platform depe
 === Dependencies
 
 - user name must be ``mfomichev``.
-- https://sdkman.io[sdkman] must be installed
 - ...
 
 ==  Custom functions

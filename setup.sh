@@ -1,5 +1,7 @@
 #!/bin/bash
 
+source ./sdkman-setup.sh
+
 ln -sfv $PWD/functions $HOME/.functions
 
 source ./brew-packages-setup.sh
