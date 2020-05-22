@@ -9,6 +9,8 @@ brew install \
  jq \
  djview4 \
  rclone \
+ zsh \
+ wget \
 
 
 brew tap homebrew/cask-fonts
