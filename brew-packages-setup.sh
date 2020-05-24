@@ -16,6 +16,7 @@ brew install \
 brew tap homebrew/cask-fonts
 brew cask install font-jetbrainsmono-nerd-font
 
+brew cask install docker
 brew cask install 1password
 brew cask install google-chrome
 brew cask install firefox
