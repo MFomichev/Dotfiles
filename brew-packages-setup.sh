@@ -23,4 +23,5 @@ brew cask install firefox
 brew cask install iterm2
 brew cask install slack
 brew cask install telegram
+brew cask install jetbrains-toolbox
 
