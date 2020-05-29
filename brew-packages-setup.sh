@@ -26,4 +26,5 @@ brew cask install telegram
 brew cask install jetbrains-toolbox
 brew cask install microsoft-teams
 brew cask install postman
+brew cask install visual-studio-code
 
