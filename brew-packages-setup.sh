@@ -11,6 +11,7 @@ brew install \
  rclone \
  zsh \
  wget \
+ unrar \
 
 
 brew tap homebrew/cask-fonts
