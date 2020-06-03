@@ -2,6 +2,22 @@
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
+PACKAGES=(
+  node
+  yarn
+  p7zip
+  jq
+  djview4
+  rclone
+  zsh
+  wget
+  unrar
+)
+
+for package in ${PACKAGES[@]};do
+  brew install $package
+done
+
 brew install \
  node \
  yarn \
@@ -15,19 +31,25 @@ brew install \
 
 
 brew tap homebrew/cask-fonts
-brew cask install font-jetbrainsmono-nerd-font
 
-brew cask install docker
-brew cask install 1password
-brew cask install google-chrome
-brew cask install firefox
-brew cask install iterm2
-brew cask install slack
-brew cask install telegram
-brew cask install jetbrains-toolbox
-brew cask install microsoft-teams
-brew cask install postman
-brew cask install visual-studio-code
-brew cask install vlc
-brew cask install notion
+PACKAGES=(
+  font-jetbrainsmono-nerd-font
+  docker
+  1password
+  google-chrome
+  firefox
+  iterm2
+  slack
+  telegram
+  jetbrains-toolbox
+  microsoft-teams
+  postman
+  visual-studio-code
+  vlc
+  notion
+)
+
+for package in ${PACKAGES[@]};do
+  brew cask install $package
+done
 
