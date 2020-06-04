@@ -12,6 +12,7 @@ PACKAGES=(
   zsh
   wget
   unrar
+  bat
 )
 
 for package in ${PACKAGES[@]};do
