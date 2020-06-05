@@ -19,18 +19,6 @@ for package in ${PACKAGES[@]};do
   brew install $package
 done
 
-brew install \
- node \
- yarn \
- p7zip \
- jq \
- djview4 \
- rclone \
- zsh \
- wget \
- unrar \
-
-
 brew tap homebrew/cask-fonts
 
 PACKAGES=(
