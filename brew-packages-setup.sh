@@ -13,6 +13,7 @@ PACKAGES=(
   wget
   unrar
   bat
+  ansible
 )
 
 for package in ${PACKAGES[@]};do
