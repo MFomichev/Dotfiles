@@ -14,6 +14,7 @@ PACKAGES=(
   unrar
   bat
   ansible
+  tmux
 )
 
 for package in ${PACKAGES[@]};do
