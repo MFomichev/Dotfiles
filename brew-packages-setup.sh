@@ -15,6 +15,7 @@ PACKAGES=(
   bat
   ansible
   tmux
+  fzf
 )
 
 for package in ${PACKAGES[@]};do
