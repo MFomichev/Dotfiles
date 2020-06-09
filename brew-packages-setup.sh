@@ -17,6 +17,7 @@ PACKAGES=(
   ansible
   tmux
   fzf
+  imagemagick
 )
 
 for package in ${PACKAGES[@]};do
