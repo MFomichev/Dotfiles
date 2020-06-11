@@ -18,6 +18,7 @@ PACKAGES=(
   tmux
   fzf
   imagemagick
+  neovim
 )
 
 for package in ${PACKAGES[@]};do
