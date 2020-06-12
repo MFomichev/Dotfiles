@@ -1,0 +1,12 @@
+alias vim="nvim"
+alias vi="nvim"
+alias mc='. /usr/local/Cellar/midnight-commander/4.8.24/libexec/mc/mc-wrapper.sh'
+alias gw='./gradlew'
+
+# Docker aliases
+alias d='docker'
+alias dps='docker ps'
+alias dpsa='docker ps -a'
+alias drm='docker rm'
+alias drmf='docker rm -f'
+

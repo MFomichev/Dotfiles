@@ -17,12 +17,7 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
-
-alias vim="nvim"
-alias vi="nvim"
-alias mc='. /usr/local/Cellar/midnight-commander/4.8.24/libexec/mc/mc-wrapper.sh'
-alias gw='./gradlew'
-alias dps='docker ps'
+source ./.aliases
 
 prompt_context() {
   if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then
