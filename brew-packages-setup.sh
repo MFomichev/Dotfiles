@@ -19,6 +19,7 @@ PACKAGES=(
   fzf
   imagemagick
   neovim
+  asciidoc
 )
 
 for package in ${PACKAGES[@]};do
