@@ -43,6 +43,7 @@ PACKAGES=(
   visual-studio-code
   vlc
   notion
+  transmission
 )
 
 for package in ${PACKAGES[@]};do
