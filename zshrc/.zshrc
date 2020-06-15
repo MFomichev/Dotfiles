@@ -17,7 +17,7 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
-source ./.aliases
+source $HOME/.aliases
 
 prompt_context() {
   if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then
