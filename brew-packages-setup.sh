@@ -44,6 +44,7 @@ PACKAGES=(
   vlc
   notion
   transmission
+  skype
 )
 
 for package in ${PACKAGES[@]};do
