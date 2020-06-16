@@ -45,6 +45,8 @@ PACKAGES=(
   notion
   transmission
   skype
+  vagrant
+  virtualbox
 )
 
 for package in ${PACKAGES[@]};do
