@@ -47,6 +47,7 @@ PACKAGES=(
   skype
   vagrant
   virtualbox
+  wireshark
 )
 
 for package in ${PACKAGES[@]};do
