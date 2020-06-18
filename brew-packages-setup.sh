@@ -20,6 +20,7 @@ PACKAGES=(
   imagemagick
   neovim
   asciidoc
+  clog
 )
 
 for package in ${PACKAGES[@]};do
