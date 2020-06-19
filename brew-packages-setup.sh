@@ -21,6 +21,7 @@ PACKAGES=(
   neovim
   asciidoc
   clog
+  fpp
 )
 
 for package in ${PACKAGES[@]};do
