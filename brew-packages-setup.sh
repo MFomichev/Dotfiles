@@ -50,6 +50,7 @@ PACKAGES=(
   vagrant
   virtualbox
   wireshark
+  teamviewer
 )
 
 for package in ${PACKAGES[@]};do
