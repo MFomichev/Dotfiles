@@ -22,6 +22,7 @@ PACKAGES=(
   asciidoc
   clog
   fpp
+  gor
 )
 
 for package in ${PACKAGES[@]};do
