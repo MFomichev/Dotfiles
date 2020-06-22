@@ -23,6 +23,7 @@ PACKAGES=(
   clog
   fpp
   gor
+  htop
 )
 
 for package in ${PACKAGES[@]};do
