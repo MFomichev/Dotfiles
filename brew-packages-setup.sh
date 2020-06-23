@@ -24,6 +24,7 @@ PACKAGES=(
   fpp
   gor
   htop
+  httpie
 )
 
 for package in ${PACKAGES[@]};do
