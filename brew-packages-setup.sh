@@ -25,6 +25,7 @@ PACKAGES=(
   gor
   htop
   httpie
+  kafkacat
 )
 
 for package in ${PACKAGES[@]};do
