@@ -2,6 +2,9 @@
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
+#for libcaca
+brew cask install xquartz
+
 PACKAGES=(
   coreutils
   node
@@ -26,6 +29,7 @@ PACKAGES=(
   htop
   httpie
   kafkacat
+  libcaca
 )
 
 for package in ${PACKAGES[@]};do
