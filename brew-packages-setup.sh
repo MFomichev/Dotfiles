@@ -30,6 +30,7 @@ PACKAGES=(
   httpie
   kafkacat
   libcaca
+  m-cli
 )
 
 for package in ${PACKAGES[@]};do
