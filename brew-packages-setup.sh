@@ -31,6 +31,7 @@ PACKAGES=(
   kafkacat
   libcaca
   m-cli
+  mas
 )
 
 for package in ${PACKAGES[@]};do
