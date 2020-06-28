@@ -32,6 +32,7 @@ PACKAGES=(
   libcaca
   m-cli
   mas
+  pngquant
 )
 
 for package in ${PACKAGES[@]};do
