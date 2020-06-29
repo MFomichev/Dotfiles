@@ -33,6 +33,7 @@ PACKAGES=(
   m-cli
   mas
   pngquant
+  rename
 )
 
 for package in ${PACKAGES[@]};do
