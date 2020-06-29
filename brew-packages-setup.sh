@@ -34,6 +34,7 @@ PACKAGES=(
   mas
   pngquant
   rename
+  watchman
 )
 
 for package in ${PACKAGES[@]};do
