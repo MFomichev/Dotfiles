@@ -64,6 +64,7 @@ PACKAGES=(
   virtualbox
   wireshark
   teamviewer
+  menumeters
 )
 
 for package in ${PACKAGES[@]};do
