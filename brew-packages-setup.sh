@@ -35,6 +35,7 @@ PACKAGES=(
   pngquant
   rename
   watchman
+  thefuck
 )
 
 for package in ${PACKAGES[@]};do

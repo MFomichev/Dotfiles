@@ -31,6 +31,8 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 
 for function in ~/.functions/*; do source $function; done
 
+eval $(thefuck --alias)
+
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/Users/mfomichev/.sdkman"
 [[ -s "/Users/mfomichev/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/mfomichev/.sdkman/bin/sdkman-init.sh"
