@@ -66,6 +66,7 @@ PACKAGES=(
   wireshark
   teamviewer
   menumeters
+  staruml
 )
 
 for package in ${PACKAGES[@]};do
