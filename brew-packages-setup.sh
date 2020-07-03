@@ -36,6 +36,7 @@ PACKAGES=(
   rename
   watchman
   thefuck
+  watch
 )
 
 for package in ${PACKAGES[@]};do
