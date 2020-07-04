@@ -37,6 +37,7 @@ PACKAGES=(
   watchman
   thefuck
   watch
+  telnet
 )
 
 for package in ${PACKAGES[@]};do
