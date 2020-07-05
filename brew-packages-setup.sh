@@ -38,6 +38,7 @@ PACKAGES=(
   thefuck
   watch
   telnet
+  vegeta
 )
 
 for package in ${PACKAGES[@]};do
