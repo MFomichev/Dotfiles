@@ -9,6 +9,7 @@ source ./brew-packages-setup.sh
 source ./zshrc/zsh-setup.sh
 source ./nvim/nvim-setup.sh
 source ./mc/mc-setup.sh
+source ./vscode/vscode-setup.sh
 
 ln -sfv $PWD/tmux/tmux.conf $HOME/.tmux.conf
 

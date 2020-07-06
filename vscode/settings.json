@@ -1,0 +1,10 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "terminal.external.osxExec": "iTerm2.app",
+    "terminal.integrated.fontFamily": "Noto Mono for Powerline",
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "editor.minimap.enabled": false,
+    "editor.fontSize": 16
+}
