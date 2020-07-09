@@ -39,6 +39,7 @@ PACKAGES=(
   watch
   telnet
   vegeta
+  kubectl
 )
 
 for package in ${PACKAGES[@]};do
