@@ -6,5 +6,7 @@
     "terminal.integrated.fontFamily": "Noto Mono for Powerline",
     "java.errors.incompleteClasspath.severity": "ignore",
     "editor.minimap.enabled": false,
-    "editor.fontSize": 16
+    "editor.fontSize": 16,
+    "workbench.iconTheme": "vscode-icons",
+    "vsicons.dontShowNewVersionMessage": true
 }

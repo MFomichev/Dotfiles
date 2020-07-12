@@ -16,3 +16,8 @@ The repo structure is awful (as well as amount of repetability and platform depe
 |``mkcdir`` |Create dir and go to it
 |===
 
+== After install actions
+=== Visual Studio Code
+
+* activate ``vscode-icons``: Code > Preferences > File Icon Theme > VSCode Icons
+
