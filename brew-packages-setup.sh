@@ -71,6 +71,7 @@ PACKAGES=(
   teamviewer
   menumeters
   staruml
+  tunnelblick
 )
 
 for package in ${PACKAGES[@]};do
