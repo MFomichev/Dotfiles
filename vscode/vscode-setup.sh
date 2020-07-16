@@ -6,7 +6,8 @@ EXTENTIONS=(
   redhat.java
   eriklynd.json-tools
   vscode-icons-team.vscode-icons
-  DotJoshJohnson.xml	
+  DotJoshJohnson.xml
+  ms-azuretools.vscode-docker
 )
 
 for extension in ${EXTENTIONS[@]};do
