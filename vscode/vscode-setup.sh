@@ -8,6 +8,7 @@ EXTENTIONS=(
   vscode-icons-team.vscode-icons
   DotJoshJohnson.xml
   ms-azuretools.vscode-docker
+  grapecity.gc-excelviewer
 )
 
 for extension in ${EXTENTIONS[@]};do
