@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# update brew and apps from AppStore
+update() {
+  mbutd
+  echo '[START] update app store'
+  mas upgrade
+  echo '[FINISH] update app store finish'
+}
+

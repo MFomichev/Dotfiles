@@ -10,8 +10,5 @@ mbutd() {
   echo '[START] update packages'
   brew upgrade
   echo '[FINISH] all packages are updated'
-  echo '[START] update app store'
-  mas upgrade
-  echo '[FINISH] update app store finish'
 }
 
