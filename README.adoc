@@ -17,6 +17,9 @@ The repo structure is awful (as well as amount of repetability and platform depe
 |``update`` |Update brew (use ``mbutd`` and apps from AppStore)
 |===
 
+== Before install actions
+* login in AppStore
+
 == After install actions
 === Visual Studio Code
 
