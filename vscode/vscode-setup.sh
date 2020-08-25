@@ -9,6 +9,7 @@ EXTENTIONS=(
   DotJoshJohnson.xml
   ms-azuretools.vscode-docker
   grapecity.gc-excelviewer
+  adpyke.vscode-sql-formatter
 )
 
 for extension in ${EXTENTIONS[@]};do
