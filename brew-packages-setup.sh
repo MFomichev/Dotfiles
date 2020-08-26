@@ -72,6 +72,7 @@ PACKAGES=(
   menumeters
   staruml
   tunnelblick
+  1password-cli
 )
 
 for package in ${PACKAGES[@]};do
