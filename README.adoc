@@ -25,3 +25,7 @@ The repo structure is awful (as well as amount of repetability and platform depe
 
 * activate ``vscode-icons``: Code > Preferences > File Icon Theme > VSCode Icons
 
+=== 1Password
+
+* execute ``op signin my.1password.com <<login>>``
+
