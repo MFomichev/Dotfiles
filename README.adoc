@@ -15,6 +15,7 @@ The repo structure is awful (as well as amount of repetability and platform depe
 |``mbutd`` |Update brew, formulae and packages
 |``mkcdir`` |Create dir and go to it
 |``update`` |Update brew (use ``mbutd`` and apps from AppStore)
+|``get_keycloak_params_from_1pwd``  |Get params from 1Password for Keycloak
 |===
 
 == Before install actions
