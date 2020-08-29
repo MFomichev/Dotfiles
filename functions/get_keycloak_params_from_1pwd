@@ -1,6 +1,6 @@
 #!/bin/bash
 
-function get_keycloack_params_from_1pwd() {
+function get_keycloak_params_from_1pwd() {
   local pwd_item=$(op get item $1)
   echo $(echo $pwd_item | jq -r '.overview.URLs | map(select(.l == "keycloack")) | .[0].u')
   echo $(echo $pwd_item | jq -r '.details.fields | map(select(.name == "username")) | .[0].value')
