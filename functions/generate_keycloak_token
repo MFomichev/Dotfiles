@@ -1,0 +1,17 @@
+#!/bin/bash
+
+functions generate_keycloak_token() {
+  local domain=$1
+  [[ "$domain" != */ ]] && domain="$1/"
+  local endpoint="${domain}auth/realms/prod/protocol/openid-connect/token"
+  local username_header="username=$2"
+  local password_header="password=$3"
+  echo "Bearer $(curl --insecure -s -X POST $endpoint \
+                    -H 'Content-Type: application/x-www-form-urlencoded' \
+                    -H 'Origin: http://localhost:9090' \
+                    -d $username_header \
+                    -d $password_header \
+                    -d 'grant_type=password' \
+                    -d 'client_id=wms-portal-ui' | jq -r .access_token)" \
+  | pbcopy
+}
