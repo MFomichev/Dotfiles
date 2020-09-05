@@ -73,6 +73,7 @@ PACKAGES=(
   staruml
   tunnelblick
   1password-cli
+  miro
 )
 
 for package in ${PACKAGES[@]};do
