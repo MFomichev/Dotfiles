@@ -70,7 +70,6 @@ PACKAGES=(
   virtualbox
   wireshark
   teamviewer
-  menumeters
   staruml
   tunnelblick
   1password-cli
