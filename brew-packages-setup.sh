@@ -40,6 +40,7 @@ PACKAGES=(
   telnet
   vegeta
   kubectl
+  libpq
 )
 
 for package in ${PACKAGES[@]};do
