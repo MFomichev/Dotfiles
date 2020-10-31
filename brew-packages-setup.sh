@@ -74,7 +74,6 @@ PACKAGES=(
   tunnelblick
   1password-cli
   miro
-  visualvm
 )
 
 for package in ${PACKAGES[@]};do
