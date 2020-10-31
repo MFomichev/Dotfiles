@@ -41,6 +41,7 @@ PACKAGES=(
   vegeta
   kubectl
   libpq
+  unar
 )
 
 for package in ${PACKAGES[@]};do
