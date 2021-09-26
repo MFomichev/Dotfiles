@@ -1,6 +1,6 @@
 alias vim="nvim"
 alias vi="nvim"
-alias mc='. /usr/local/Cellar/midnight-commander/4.8.25/libexec/mc/mc-wrapper.sh'
+alias mc='. /usr/local/Cellar/midnight-commander/4.8.27/libexec/mc/mc-wrapper.sh'
 alias gw='./gradlew'
 
 # Docker aliases
