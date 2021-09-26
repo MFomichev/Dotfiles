@@ -824,7 +824,7 @@ include/editor
 	Open=%var{EDITOR:vi} %f
 
 include/image
-	Open=/usr/local/Cellar/midnight-commander/4.8.25/libexec/mc/ext.d/image.sh open ALL_FORMATS
+	Open=open %f
 	View=%view{ascii} /usr/local/Cellar/midnight-commander/4.8.25/libexec/mc/ext.d/image.sh view ALL_FORMATS
 
 include/video
