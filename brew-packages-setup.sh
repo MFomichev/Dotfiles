@@ -42,6 +42,7 @@ PACKAGES=(
   kubectl
   libpq
   unar
+  exa
 )
 
 for package in ${PACKAGES[@]};do

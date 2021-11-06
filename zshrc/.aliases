@@ -1,6 +1,11 @@
 alias vim="nvim"
 alias vi="nvim"
+
+alias ls='exa'
+
 alias mc='. /usr/local/Cellar/midnight-commander/4.8.27/libexec/mc/mc-wrapper.sh'
+
+# Java aliases
 alias gw='./gradlew'
 
 # Docker aliases
@@ -11,4 +16,5 @@ alias drm='docker rm'
 alias drmf='docker rm -f'
 
 alias jwt='generate_keycloak_token $(get_keycloak_params_from_1pwd $JOB)'
+
 
