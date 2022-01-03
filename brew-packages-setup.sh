@@ -23,7 +23,6 @@ PACKAGES=(
   imagemagick
   neovim
   asciidoc
-  clog
   fpp
   gor
   htop
@@ -34,7 +33,6 @@ PACKAGES=(
   mas
   pngquant
   rename
-  watchman
   thefuck
   watch
   telnet
@@ -43,6 +41,7 @@ PACKAGES=(
   libpq
   unar
   exa
+  licecap
 )
 
 for package in ${PACKAGES[@]};do
