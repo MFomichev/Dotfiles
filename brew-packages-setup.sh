@@ -75,6 +75,7 @@ PACKAGES=(
   tunnelblick
   1password-cli
   miro
+  monitorcontrol
 )
 
 for package in ${PACKAGES[@]};do
