@@ -8,5 +8,18 @@
     "editor.minimap.enabled": false,
     "editor.fontSize": 16,
     "workbench.iconTheme": "vscode-icons",
-    "vsicons.dontShowNewVersionMessage": true
+    "vsicons.dontShowNewVersionMessage": true,
+    "csv-preview.separator": ";",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "window.zoomLevel": 1,
+    "editor.renderWhitespace": "none",
+    "editor.renderControlCharacters": false,
+    "breadcrumbs.enabled": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false
 }

@@ -33,6 +33,9 @@ for function in ~/.functions/*; do source $function; done
 
 eval $(thefuck --alias)
 
+export SSH_AUTH_SOCK=~/.1password/agent.sock
+
+
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/Users/mfomichev/.sdkman"
 [[ -s "/Users/mfomichev/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/mfomichev/.sdkman/bin/sdkman-init.sh"

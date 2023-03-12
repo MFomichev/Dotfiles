@@ -7,6 +7,10 @@ update() {
   mas upgrade
   echo '[FINISH] update app store finish'
 
+  echo '[START] update sdkman'
+  sdk update
+  echo '[FINISH] update sdkman finish'
+
   echo '[START] update oh-my-zsh'
   omz update
   echo '[FINISH] update oh-my-zsh finish'
