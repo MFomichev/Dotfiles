@@ -35,6 +35,7 @@ eval $(thefuck --alias)
 
 export SSH_AUTH_SOCK=~/.1password/agent.sock
 
+eval $(/opt/homebrew/bin/brew shellenv)
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/Users/mfomichev/.sdkman"
