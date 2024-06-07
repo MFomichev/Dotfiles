@@ -3,7 +3,7 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 #for libcaca
-brew cask install xquartz
+brew install --cask xquartz
 
 PACKAGES=(
   coreutils
@@ -40,7 +40,7 @@ PACKAGES=(
   kubectl
   libpq
   unar
-  exa
+  eza
   licecap
 )
 
@@ -51,7 +51,7 @@ done
 brew tap homebrew/cask-fonts
 
 PACKAGES=(
-  font-jetbrainsmono-nerd-font
+  cask-fonts/font-jetbrainsmono-nerd-font
   docker
   1password
   google-chrome
@@ -60,18 +60,12 @@ PACKAGES=(
   slack
   telegram
   jetbrains-toolbox
-  microsoft-teams
   postman
   visual-studio-code
   vlc
   notion
   transmission
   skype
-  vagrant
-  virtualbox
-  wireshark
-  teamviewer
-  staruml
   tunnelblick
   1password-cli
   miro
@@ -79,6 +73,6 @@ PACKAGES=(
 )
 
 for package in ${PACKAGES[@]};do
-  brew cask install $package
+  brew install --cask $package
 done
 
