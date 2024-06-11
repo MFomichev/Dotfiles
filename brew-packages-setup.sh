@@ -56,7 +56,6 @@ PACKAGES=(
   1password
   google-chrome
   firefox
-  iterm2
   slack
   telegram
   jetbrains-toolbox
