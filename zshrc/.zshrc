@@ -1,4 +1,4 @@
-export ZSH="/Users/mfomichev/.oh-my-zsh"
+export ZSH="/Users/$USER/.oh-my-zsh"
 
 ZSH_THEME="agnoster"
 
@@ -38,6 +38,6 @@ export SSH_AUTH_SOCK=~/.1password/agent.sock
 eval $(/opt/homebrew/bin/brew shellenv)
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/Users/mfomichev/.sdkman"
-[[ -s "/Users/mfomichev/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/mfomichev/.sdkman/bin/sdkman-init.sh"
+export SDKMAN_DIR="/Users/$USER/.sdkman"
+[[ -s "/Users/$USER/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/$USER/.sdkman/bin/sdkman-init.sh"
 

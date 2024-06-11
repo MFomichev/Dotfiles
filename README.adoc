@@ -5,7 +5,6 @@ The repo structure is awful (as well as amount of repetability and platform depe
 == Macos
 === Dependencies
 
-- user name must be ``mfomichev``.
 - ...
 
 ==  Custom functions
