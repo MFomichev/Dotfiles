@@ -42,6 +42,7 @@ PACKAGES=(
   unar
   eza
   licecap
+  midnight-commander
 )
 
 for package in ${PACKAGES[@]};do
