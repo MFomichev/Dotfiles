@@ -35,6 +35,10 @@ eval $(thefuck --alias)
 
 export SSH_AUTH_SOCK=~/.1password/agent.sock
 
+# Config eza colors
+EZA_COLORS=""
+EZA_COLORS+="xx=FF;FF;FF:" # punctuation ('-')
+export EZA_COLORS
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/Users/$USER/.sdkman"
